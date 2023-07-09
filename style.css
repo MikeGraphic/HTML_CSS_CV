@@ -100,7 +100,38 @@ header {
 .head-information-block:nth-child(3) {
     position: relative;
     width: 100%;
-    height: 35%;
+    height: 45%;
+    font-family: Montserrat;
+    margin-top: 2%;
+}
+
+.head-information-block:nth-child(3) span {
+    color: #e69d00;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 3%;
+
+}
+
+.head-information-block p {
+    font-size: small;
+    margin-left: 3%;
+}
+
+.goal-mark{
+    position: absolute;
+    top: 26%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 2%;
+}
+.ability-mark{
+    position: absolute;
+    bottom: 46%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 2%;
+
 }
 
 main {
@@ -131,13 +162,14 @@ main {
     margin-left: 10%;
 }
 
+
 .name-container-element {
     background-color: #815800;
     width: 8.5%;
     height: 15%;
     clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
     position: absolute;
-    bottom: 0;
+    bottom: 7%;
 }
 
 .head-information-block:nth-child(3) {
@@ -225,6 +257,7 @@ footer {
     right: 0;
     top: 10%;
 }
+
 .footer-contant:nth-child(3) {
     clip-path: polygon(0% 0%, 100% 0%, 50% 50%);
     background-color: rgb(0, 0, 0);
@@ -235,6 +268,7 @@ footer {
     bottom: 0%;
     left: 27.6%;
 }
+
 .url-container {
     height: 100%;
     width: 30%;
@@ -250,41 +284,46 @@ footer {
     height: 30%;
 
 }
+
 .url-element:nth-child(2) {
-bottom: 10%;
-position: absolute;
-left: 30%
+    bottom: 10%;
+    position: absolute;
+    left: 30%
 }
-.url-element:nth-child(2) img{
-    width:60%;
+
+.url-element:nth-child(2) img {
+    width: 60%;
 }
 
 
-.language-element
-{
+.language-element {
     color: whitesmoke;
     font-family: Montserrat;
-    margin-bottom: 7%;
-    
+    margin-bottom: 4%;
+
 }
-.language-element:nth-child(1)
-{
+
+.language-element:nth-child(1) {
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
 }
-.language{
+
+.language {
     position: relative;
     font-size: large;
 }
-.language span:nth-child(1){
+
+.language span:nth-child(1) {
     left: 10%;
     position: absolute;
 }
-.language span:nth-child(2){
-margin-left: 80%;
+
+.language span:nth-child(2) {
+    margin-left: 80%;
 }
-.progres-bar{
+
+.progres-bar {
     width: 80%;
     height: 6px;
     background-color: whitesmoke;
@@ -293,24 +332,28 @@ margin-left: 80%;
     margin-top: 3%;
 
 }
-.progres-bel{
+
+.progres-bel {
     height: 100%;
     width: 70%;
-    background-color:#e69d00;
-    border-radius:7px ;
+    background-color: #e69d00;
+    border-radius: 7px;
 }
-.progres-rus{
+
+.progres-rus {
     height: 100%;
     width: 100%;
-    background-color:#e69d00;
-    border-radius:7px ;
+    background-color: #e69d00;
+    border-radius: 7px;
 }
-.progres-eng{
+
+.progres-eng {
     height: 100%;
     width: 50%;
-    background-color:#e69d00;
-    border-radius:7px ;
+    background-color: #e69d00;
+    border-radius: 7px;
 }
+
 @media (max-width: 768px) {
     .center-block {
         width: 80%;
@@ -324,6 +367,7 @@ margin-left: 80%;
         font-size: 100%;
     }
 }
+
 @media (max-width: 480px) {
     .center-block {
         width: 100%;
@@ -337,12 +381,14 @@ margin-left: 80%;
         font-size: 100%;
     }
 }
+
 @font-face {
     font-family: Montserrat;
     src: url(/fonts/Montserrat-VariableFont_wght.ttf);
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: Montserrat;
     src: url(/fonts/Montserrat-Bold.ttf);
