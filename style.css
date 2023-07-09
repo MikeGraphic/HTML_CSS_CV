@@ -133,10 +133,59 @@ header {
     height: 2%;
 
 }
-
+.problem-solving-mark{
+    position: absolute;
+    top: 21%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 0.5%;
+}
+.adaptability-mark{
+    position: absolute;
+    top: 26%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 0.5%;
+}
+.time-mark{
+    position: absolute;
+    top: 31%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 0.5%;
+}
+.teamwork-mark{
+    position: absolute;
+    top: 36%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 0.5%;
+}
+.creativity-mark{
+    position: absolute;
+    top: 41%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 0.5%;
+}
+.languages-mark{
+    position: absolute;
+    top: 37%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 4%;
+}
+.frameworks-mark{
+    position: absolute;
+    top: 62%;
+    background-color: rgb(30, 30, 30);
+    width: 2%;
+    height: 4%; 
+}
 main {
     width: 100%;
     height: 60%;
+    display: flex;
 }
 
 .main-container:nth-child(1) {
@@ -144,7 +193,62 @@ main {
     width: 30%;
     background-color: rgb(30, 30, 30);
 }
-
+.main-container:nth-child(2){
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+.skill-title{
+    background-color: rgb(30, 30, 30);
+    height: 14%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: x-large;
+}
+.soft-skill-container{
+    height: 43% ;
+    width: 100%;
+    margin-top: 2%;
+}
+.hard-skill-container{
+    height: 43% ;
+    width: 100%;
+    margin-top: 20%;
+    position: relative;
+}
+.hard-skill-container span{
+    color: #e69d00;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.hard-skill-container p{
+    font-size: small;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.soft-skill-container span{
+    color: #e69d00;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.main-information-block:nth-child(1){
+width: 100%;
+height: 30%;
+margin-top: 14%;
+font-family: Montserrat;
+}
+.soft-skill-container p{
+    font-size: small;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 .name-container:nth-child(1) {
     background-color: #e69d00;
     width: 120%;
