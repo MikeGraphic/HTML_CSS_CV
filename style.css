@@ -43,7 +43,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    font-size: 170%;
     font-weight: bold
 }
 
@@ -105,7 +105,7 @@ header {
 
 main {
     width: 100%;
-    height: 50%;
+    height: 60%;
 }
 
 .main-container:nth-child(1) {
@@ -117,8 +117,9 @@ main {
 .name-container:nth-child(1) {
     background-color: #e69d00;
     width: 120%;
-    height: 10%;
+    height: 8%;
     display: flex;
+    font-weight: bold;
 }
 
 .name-container:nth-child(1) span {
@@ -152,9 +153,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* Размещаем элементы по центру по горизонтали */
     align-items: center;
-    /* Размещаем элементы по центру по вертикали */
 }
 
 .marker {
@@ -168,7 +167,7 @@ main {
 
 .contact-container {
     width: 100%;
-    height: 25%;
+    height: 20%;
     display: flex;
     flex-wrap: wrap;
     padding-left: 9%;
@@ -176,7 +175,6 @@ main {
 
 .contact-container li {
     margin-top: 2%;
-    /* Уменьшаем расстояние между элементами */
     flex-basis: 100%;
 }
 
@@ -188,11 +186,11 @@ main {
 
 .programs-container {
     width: 100%;
-    height: 40%;
+    height: 35%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .program-element {
@@ -261,6 +259,58 @@ left: 30%
     width:60%;
 }
 
+
+.language-element
+{
+    color: whitesmoke;
+    font-family: Montserrat;
+    margin-bottom: 7%;
+    
+}
+.language-element:nth-child(1)
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.language{
+    position: relative;
+    font-size: large;
+}
+.language span:nth-child(1){
+    left: 10%;
+    position: absolute;
+}
+.language span:nth-child(2){
+margin-left: 80%;
+}
+.progres-bar{
+    width: 80%;
+    height: 6px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+.progres-bel{
+    height: 100%;
+    width: 70%;
+    background-color:#e69d00;
+    border-radius:7px ;
+}
+.progres-rus{
+    height: 100%;
+    width: 100%;
+    background-color:#e69d00;
+    border-radius:7px ;
+}
+.progres-eng{
+    height: 100%;
+    width: 50%;
+    background-color:#e69d00;
+    border-radius:7px ;
+}
 @media (max-width: 768px) {
     .center-block {
         width: 80%;
@@ -274,7 +324,6 @@ left: 30%
         font-size: 100%;
     }
 }
-
 @media (max-width: 480px) {
     .center-block {
         width: 100%;
