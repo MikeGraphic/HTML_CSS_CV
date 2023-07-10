@@ -577,14 +577,14 @@ footer {
 
 @font-face {
     font-family: Montserrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(/fonts/Montserrat-Bold.ttf);
+    src: url(fonts/Montserrat-Bold.ttf);
     font-style: normal;
     font-weight: bold;
 }
